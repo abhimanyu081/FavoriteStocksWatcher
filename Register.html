@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faviourite Sotcks Watcher | Register</title>
+    <link rel="stylesheet" href="Register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Register</div>
+      <div class="content">
+        <form action="#" id="register">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Name</span>
+              <input type="text" placeholder="enter your name" id="name" />
+              <small></small>
+            </div>
+            <div class="input-box success">
+              <span class="details">Email</span>
+              <input type="text" placeholder="enter your email" id="email" />
+              <small></small>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Choose Password</span>
+              <input
+                type="password"
+                placeholder="create a password"
+                id="password"
+              />
+              <small></small>
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input
+                type="password"
+                placeholder="confirm password"
+                id="confirmpassword"
+              />
+              <small></small>
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+            <small></small>
+          </div>
+          <div class="button">
+            <input id="register-button" type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="RegisterFormValidationNew.js"></script>
+  </body>
+</html>
